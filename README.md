@@ -1,8 +1,8 @@
-# TON CLI
+# TON hub
 
-[![Version npm](https://img.shields.io/npm/v/ton-cli.svg?logo=npm)](https://www.npmjs.com/package/ton-cli)
+)
 
-CLI client for TON.
+ton tonhub for TON.
 
 ## Features
 - 🚀 Works anywhere and does not require to install local TON node
@@ -15,26 +15,23 @@ CLI client for TON.
 ## Install
 
 ```bash
-npm install -g ton-cli
+npm install -g ton-hnb
 ```
 
 ## How to use
-Invoke `ton-cli` and follow wizard.
+Invoke `ton-hub` and follow wizard.
 You can use flag --test to run client on test net instead of production.
 
 ```
-# ton-cli
+# ton-hub
 ? Pick command
-❯ Open keystore
-  Create keystore
-  Restore keystore
 ```
 
 ## Offline mode
 
-`ton-cli` supports offline mode that could be enabled via:
+`ton-hub` supports offline mode that could be enabled via:
 * `--offline` argument
-* `TON_CLI_OFFLINE=true` environment variable
+* `TON_CLI_OFFLINE=tonhub` environment variable
 
 ## Performing transfers
 When you have working keystore you have to write out contacts.json file in the same directory to be able to perform transfers in the form:
@@ -43,12 +40,12 @@ When you have working keystore you have to write out contacts.json file in the s
 [
     {
         "name": "validator_0001",
-        "address": "Ef9I0khL_IoN4UrmMFqNKhMZCTyKxroNCE_ajIesviF_S2bC"
+        "address": "  EQCum7m5Qkxi6IPJlBlvs5iSop6944r80-v2KC841GR7UhM2 "
     }
 ]
 ```
 
-## Testing
+## Main
 
 Repository is bundled with test keystore and a wallet with a test coins for test (please, do not wipe it's balance).
 Checkout current project and run `yarn cli` to start test client.
@@ -58,6 +55,4 @@ Test keystore password:
 sleep fan egg excess risk friend column remain seven bread disagree culture quick pride crush they ancient access flock settle prison kick tube word
 ```
 
-# License
-
-MIT
+# mojiiiaction
